@@ -1,0 +1,10 @@
+{
+    "servicesGroups":[
+    {"name":"Analytics ",
+        "docLink":"https://docs.microsoft.com/en-us/azure/?product=analytics"},
+    {"name":"Databases ",
+        "docLink":"https://docs.microsoft.com/en-us/azure/?product=databases"}
+
+
+]
+}
