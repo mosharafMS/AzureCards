@@ -1,9 +1,8 @@
-# Event Hubs                 
+# <img src ="../img/Event Hubs.svg" width=100 /> Event Hubs                 
 
 
 
-## Description											![product_picture](../img/Event Hubs.svg)
-
+## Description										
 Learn how to use Event Hubs to ingest millions of events per second from connected devices and applications.
 
 
@@ -11,7 +10,6 @@ Learn how to use Event Hubs to ingest millions of events per second from connect
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/event-hubs/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/event-hubs/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/event-hubs
 
 

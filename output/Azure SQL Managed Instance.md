@@ -1,9 +1,8 @@
-# Azure SQL Managed Instance                 
+# <img src ="../img/Azure SQL Managed Instance.svg" width=100 /> Azure SQL Managed Instance                 
 
 
 
-## Description											![product_picture](../img/Azure SQL Managed Instance.svg)
-
+## Description										
 Find documentation about Azure SQL Managed Instance, a managed instance in Azure based on the latest stable version of Microsoft SQL Server.
 
 
@@ -11,7 +10,6 @@ Find documentation about Azure SQL Managed Instance, a managed instance in Azure
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/managed-instance
 
 

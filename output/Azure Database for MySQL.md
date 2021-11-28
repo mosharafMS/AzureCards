@@ -1,9 +1,8 @@
-# Azure Database for MySQL                 
+# <img src ="../img/Azure Database for MySQL.svg" width=100 /> Azure Database for MySQL                 
 
 
 
-## Description											![product_picture](../img/Azure Database for MySQL.svg)
-
+## Description										
 Azure Database for MySQL is a relational database service powered by the MySQL community edition.You can use either Single Server or Flexible Server to host a MySQL database in Azure. It's a fully managed database as a service offering that can handle mission-critical workloads with predictable performance and dynamic scalability.
 
 
@@ -11,7 +10,6 @@ Azure Database for MySQL is a relational database service powered by the MySQL c
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/mysql/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/mysql/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/mysql
 
 

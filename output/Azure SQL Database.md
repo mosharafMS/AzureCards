@@ -1,9 +1,8 @@
-# Azure SQL Database                 
+# <img src ="../img/Azure SQL Database.svg" width=100 /> Azure SQL Database                 
 
 
 
-## Description											![product_picture](../img/Azure SQL Database.svg)
-
+## Description										
 Find concepts, quickstarts, tutorials, and samples for singled and pooled databases in Azure SQL Database.
 
 
@@ -11,7 +10,6 @@ Find concepts, quickstarts, tutorials, and samples for singled and pooled databa
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/azure-sql/database/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/azure-sql/database/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/database
 
 

@@ -1,9 +1,8 @@
-# Azure Managed Instance for Apache Cassandra                 
+# <img src ="../img/Azure Managed Instance for Apache Cassandra.svg" width=100 /> Azure Managed Instance for Apache Cassandra                 
 
 
 
-## Description											![product_picture](../img/Azure Managed Instance for Apache Cassandra.svg)
-
+## Description										
 Azure Managed Instance for Apache Cassandra provides automated deployment and scaling operations for managed open-source Apache Cassandra datacenters. It accelerates hybrid scenarios and reduces ongoing maintenance.
 
 
@@ -11,7 +10,6 @@ Azure Managed Instance for Apache Cassandra provides automated deployment and sc
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/managed-instance-apache-cassandra/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/managed-instance-apache-cassandra/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/managed-instance-apache-cassandra
 
 

@@ -1,9 +1,8 @@
-# Data Lake Analytics                 
+# <img src ="../img/Data Lake Analytics.svg" width=100 /> Data Lake Analytics                 
 
 
 
-## Description											![product_picture](../img/Data Lake Analytics.svg)
-
+## Description										
 Azure Data Lake Analytics allows you to run big data analysis jobs that scale to massive data sets.
 
 
@@ -11,7 +10,6 @@ Azure Data Lake Analytics allows you to run big data analysis jobs that scale to
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/data-lake-analytics/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/data-lake-analytics/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/data-lake-analytics
 
 

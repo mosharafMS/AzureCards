@@ -1,9 +1,8 @@
-# HDInsight                 
+# <img src ="../img/HDInsight.svg" width=100 /> HDInsight                 
 
 
 
-## Description											![product_picture](../img/HDInsight.svg)
-
+## Description										
 Azure HDInsight is a managed Apache Hadoop service that lets you run Apache Spark, Apache Hive, Apache Kafka, Apache HBase, and more in the cloud.
 
 
@@ -11,7 +10,6 @@ Azure HDInsight is a managed Apache Hadoop service that lets you run Apache Spar
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/hdinsight/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/hdinsight/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/hdinsight
 
 

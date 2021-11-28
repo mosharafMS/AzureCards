@@ -1,9 +1,8 @@
-# Data Factory                 
+# <img src ="../img/Data Factory.svg" width=100 /> Data Factory                 
 
 
 
-## Description											![product_picture](../img/Data Factory.svg)
-
+## Description										
 Azure Data Factory is Azure's cloud ETL service for scale-out serverless data integration and data transformation.  It offers a code-free UI for intuitive authoring and single-pane-of-glass monitoring and management. You can also lift and shift existing SSIS packages to Azure and run them with full compatibility in ADF. SSIS Integration Runtime offers a fully managed service, so you don't have to worry about infrastructure management.
 
 
@@ -11,7 +10,6 @@ Azure Data Factory is Azure's cloud ETL service for scale-out serverless data in
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/data-factory/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/data-factory/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/data-factory
 
 

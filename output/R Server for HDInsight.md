@@ -1,9 +1,8 @@
-# R Server for HDInsight                 
+# <img src ="../img/R Server for HDInsight.svg" width=100 /> R Server for HDInsight                 
 
 
 
-## Description											![product_picture](../img/R Server for HDInsight.svg)
-
+## Description										
 Predictive analytics, machine learning, and statistical modeling for big data
 
 
@@ -11,7 +10,6 @@ Predictive analytics, machine learning, and statistical modeling for big data
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/r-server-overview
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/r-server-overview
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/r-server-overview
 
 

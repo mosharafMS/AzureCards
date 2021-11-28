@@ -1,9 +1,8 @@
-# Table Storage                 
+# <img src ="../img/Table Storage.svg" width=100 /> Table Storage                 
 
 
 
-## Description											![product_picture](../img/Table Storage.svg)
-
+## Description										
 NoSQL key-value store using semi-structured datasets
 
 
@@ -11,7 +10,6 @@ NoSQL key-value store using semi-structured datasets
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/table-storage-overview
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/table-storage-overview
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/table-storage-overview
 
 

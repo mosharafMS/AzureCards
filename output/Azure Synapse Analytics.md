@@ -1,9 +1,8 @@
-# Azure Synapse Analytics                 
+# <img src ="../img/Azure Synapse Analytics.svg" width=100 /> Azure Synapse Analytics                 
 
 
 
-## Description											![product_picture](../img/Azure Synapse Analytics.svg)
-
+## Description										
 Azure Synapse is a limitless analytics service that brings together enterprise data warehousing and Big Data analytics. It gives you the freedom to query data on your terms, using either serverless or dedicated resourcesâat scale.
 
 
@@ -11,7 +10,6 @@ Azure Synapse is a limitless analytics service that brings together enterprise d
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/synapse-analytics/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/synapse-analytics/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/synapse-analytics
 
 

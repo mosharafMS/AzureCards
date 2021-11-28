@@ -1,9 +1,8 @@
-# Data Catalog                 
+# <img src ="../img/Data Catalog.svg" width=100 /> Data Catalog                 
 
 
 
-## Description											![product_picture](../img/Data Catalog.svg)
-
+## Description										
 Learn how to set up a data catalog so your organization can find, understand, and consume data sources. Tutorials, REST API reference, and other documentation show you how to plan and set up your data repository where data consumers can discover available data sources and gain knowledge contributed by subject matter experts.
 
 
@@ -11,7 +10,6 @@ Learn how to set up a data catalog so your organization can find, understand, an
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/data-catalog/
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/data-catalog/
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/data-catalog
 
 

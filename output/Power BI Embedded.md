@@ -1,9 +1,8 @@
-# Power BI Embedded                 
+# <img src ="../img/Power BI Embedded.svg" width=100 /> Power BI Embedded                 
 
 
 
-## Description											![product_picture](../img/Power BI Embedded.svg)
-
+## Description										
 Embed fully interactive, stunning data visualizations in your applications
 
 
@@ -11,7 +10,6 @@ Embed fully interactive, stunning data visualizations in your applications
 
 
 ## Documentation
-
 https://docs.microsoft.com/en-us/azure/azure-pbie-what-is-power-bi-embedded
 
 
@@ -21,15 +19,12 @@ https://docs.microsoft.com/en-us/azure/azure-pbie-what-is-power-bi-embedded
 
 
 
-
 ## Security
 
 
 
 
-
 ## Pricing
-
 https://azure.microsoft.com/en-us/pricing/details/azure-pbie-what-is-power-bi-embedded
 
 
