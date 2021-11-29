@@ -1,10 +1,28 @@
 {
-    "servicesGroups":[
-    {"name":"Analytics ",
-        "docLink":"https://docs.microsoft.com/en-us/azure/?product=analytics"},
-    {"name":"Databases ",
-        "docLink":"https://docs.microsoft.com/en-us/azure/?product=databases"}
-
-
-]
+    "servicesGroups": [
+        {
+            "name": "Analytics ",
+            "docLink": "https://docs.microsoft.com/en-us/azure/?product=analytics"
+        },
+        {
+            "name": "Databases ",
+            "docLink": "https://docs.microsoft.com/en-us/azure/?product=databases"
+        },
+        {
+            "name": "AI + Machine Learning ",
+            "docLink": "https://docs.microsoft.com/en-us/azure/?product=ai-machine-learning"
+        },
+        {
+            "name": "Compute ",
+            "docLink": "https://docs.microsoft.com/en-us/azure/?product=compute"
+        },
+        {
+            "name": "Storage ",
+            "docLink": "https://docs.microsoft.com/en-us/azure/?product=storage"
+        },
+        {
+            "name": "Security ",
+            "docLink": "https://docs.microsoft.com/en-us/azure/?product=security"
+        }
+    ]
 }
