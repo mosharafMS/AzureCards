@@ -3,6 +3,7 @@ import requests
 from bs4  import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from pathlib import Path
+import argparse
 
 #Get the list of servicesGroup from the json file
 def get_servicesGroup(json_file):
@@ -134,30 +135,41 @@ def generate_markdown_file(service):
                 f.write(markdown)
             #update the template with the product info
         
-    
-    
+# check the passed arguments    
+def check_arguments():
+    parser = argparse.ArgumentParser(usage='%(prog)s [options]',description='From the list of Azure services groups listed in the services.json file, generate a json file per service group and from it generate a markdown file with each product card')
+    parser.add_argument('-jo', '--json-only', help='Generate only the json file', required=False, action='store_true')
+    parser.add_argument('-mo', '--markdown-only', help='Generate only the markdown file', required=False, action='store_true')
+    args = parser.parse_args()
+    return args
+  
     
 
 
 # main function. the entry point of the program
 def main():
+    #check passed arguments
+    args=check_arguments()
+    
     service_group = get_servicesGroup('services.json')
     #loop through all the service_group
     for service in service_group:
-        #download the link of the service_group
-        html=download_link(service)
-        #get the product cards of the service_group
-        product_cards=get_product_cards(html,service)
-        #get the product info of the product cards
-        products_info=get_product_info(product_cards)
-        #remove the query string from the url
-        doc_link = service['docLink']
-        doc_link=urljoin(doc_link, urlparse(doc_link).path)  
-        #save the products_info in a json file
-        save_products_info(products_info,doc_link,service_group=service['name'])
-        #generate the markdown file
-        generate_markdown_file(service)
-    
+        if not args.markdown_only:
+            #download the link of the service_group
+            html=download_link(service)
+            #get the product cards of the service_group
+            product_cards=get_product_cards(html,service)
+            #get the product info of the product cards
+            products_info=get_product_info(product_cards)
+            #remove the query string from the url
+            doc_link = service['docLink']
+            doc_link=urljoin(doc_link, urlparse(doc_link).path)  
+            #save the products_info in a json file
+            save_products_info(products_info,doc_link,service_group=service['name'])
+        if not args.json_only:
+            #generate the markdown file
+            generate_markdown_file(service)
+        
 
 if __name__ == '__main__':
     main()
