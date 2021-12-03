@@ -7,25 +7,42 @@ Learn how to use Cloud Services to host and run highly available, scalable cloud
 
 
 
-
-
 ## Documentation
 https://docs.microsoft.com/en-us/azure/cloud-services-extended-support/
 
 
-
-## Architectural Function
-
+## Security		<img src="../img/star.png" width=100 />  
 
 
 
-## Security
+## Performance		<img src="../img/star.png" width=100 />
+
+
+	
+## Complexity		<img src="../img/star.png" width=100 />
 
 
 
+## Accessibility		<img src="../img/star.png" width=100 />
 
-## Pricing
+
+
+## Supportability		<img src="../img/star.png" width=100 />
+
+
+
+## Interoperability		<img src="../img/star.png" width=100 />
+
+
+
+## Data handling
+
+
+
+## Cost 		<img src="../img/star.png" width=100 />
+
 https://azure.microsoft.com/en-us/pricing/details/cloud-services-extended-support
+
 
 
 

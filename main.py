@@ -4,6 +4,8 @@ from bs4  import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from pathlib import Path
 import argparse
+import shutil 
+import os
 
 #Get the list of servicesGroup from the json file
 def get_servicesGroup(json_file):
@@ -76,11 +78,38 @@ def save_products_info(products_info,doc_link,service_group):
         #update the product_picture to the name of the image
         product['product_picture']=image_path
         # add new field for price_link
-        product['price_link']=get_price_link(product['product_link'])
-        # add a new field for architectural function
-        product['architectural_function']=''
+        product['product_cost_link']=get_price_link(product['product_link'])
+        # add a new field for cost
+        product['product_cost']=''
+        # add a new field for cost rating
+        product['product_cost_rating']=''
         # add a new field for security
-        product['security']=''
+        product['product_security']=''
+        # add a new field for security rating
+        product['product_security_rating']=''
+        # add a new field for performance
+        product['product_performance']=''
+        # add a new field for performance rating
+        product['product_performance_rating']=''
+        # add a new field for complexity
+        product['product_complexity']=''
+        # add a new field for complexity rating
+        product['product_complexity_rating']=''
+        # add a new field for accessibility
+        product['product_accessibility']=''
+        # add a new field for accessibility rating
+        product['product_accessibility_rating']=''
+        # add a new field for support
+        product['product_support']=''
+        # add a new field for support rating
+        product['product_support_rating']=''
+        # add a new field for interoperability
+        product['product_interoperability']=''
+        # add a new field for interoperability rating
+        product['product_interoperability_rating']=''
+        # add a new field for data handling
+        product['product_data_handling']=''
+        
        
     #save the products_info in a json file
     Path("output/").mkdir(parents=True, exist_ok=True)    
@@ -114,8 +143,14 @@ def get_full_description(product_link):
 # generate markdown file from json
 def generate_markdown_file(service):
     #open the template file
-    with open('card_template.md', 'r') as f:
+    with open('resources/card_template.md', 'r') as f:
         template = f.read()
+    
+    # copy the rating pictures from resources folder to the img folder
+    for file in os.listdir('resources/'):
+        if file.endswith(".png") or file.endswith(".svg"):
+            shutil.copy('resources/'+file, 'img/')
+    
     #create a new file to write the markdown
     with open('output/'+service['name'].strip()+'.json', 'r') as f:
         #loop through the products_info
@@ -126,15 +161,28 @@ def generate_markdown_file(service):
             markdown=markdown.replace('{{product_description}}',product['product_description'])
             markdown=markdown.replace('{{product_link}}',product['product_link'])
             markdown=markdown.replace('{{product_picture}}','../'+product['product_picture'])
-            markdown=markdown.replace('{{price_link}}',product['price_link'])
-            markdown=markdown.replace('{{architectural_function}}',product['architectural_function'])
-            markdown=markdown.replace('{{security}}',product['security'])
+            markdown=markdown.replace('{{product_cost_link}}',product['product_cost_link'])
+            markdown=markdown.replace('{{product_cost}}',product['product_cost'])
+            markdown=markdown.replace('{{product_cost_rating_pic}}','../img/'+product['product_cost_rating']+'star.png')
+            markdown=markdown.replace('{{product_security}}',product['product_security'])
+            markdown=markdown.replace('{{product_security_rating_pic}}','../img/'+product['product_security_rating']+'star.png')
+            markdown=markdown.replace('{{product_performance}}',product['product_performance'])
+            markdown=markdown.replace('{{product_performance_rating_pic}}','../img/'+product['product_performance_rating']+'star.png')
+            markdown=markdown.replace('{{product_complexity}}',product['product_complexity'])
+            markdown=markdown.replace('{{product_complexity_rating_pic}}','../img/'+product['product_complexity_rating']+'star.png')
+            markdown=markdown.replace('{{product_accessibility}}',product['product_accessibility'])
+            markdown=markdown.replace('{{product_accessibility_rating_pic}}','../img/'+product['product_accessibility_rating']+'star.png')
+            markdown=markdown.replace('{{product_support}}',product['product_support'])
+            markdown=markdown.replace('{{product_support_rating_pic}}','../img/'+product['product_support_rating']+'star.png')
+            markdown=markdown.replace('{{product_interoperability}}',product['product_interoperability'])
+            markdown=markdown.replace('{{product_interoperability_rating_pic}}','../img/'+product['product_interoperability_rating']+'star.png')
+            markdown=markdown.replace('{{product_data_handling}}',product['product_data_handling'])
             #save the markdown in a new file
             Path("output/").mkdir(parents=True, exist_ok=True)
             with open('output/'+product['product_name']+'.md', 'w',encoding='utf-8') as f:
                 f.write(markdown)
             #update the template with the product info
-        
+
 # check the passed arguments    
 def check_arguments():
     parser = argparse.ArgumentParser(usage='%(prog)s [options]',description='From the list of Azure services groups listed in the services.json file, generate a json file per service group and from it generate a markdown file with each product card')

@@ -7,25 +7,42 @@ On June 11, 2020, Microsoft announced that it will not sell facial recognition t
 
 
 
-
-
 ## Documentation
 https://docs.microsoft.com/en-us/azure/cognitive-services/face/
 
 
-
-## Architectural Function
-
+## Security		<img src="../img/star.png" width=100 />  
 
 
 
-## Security
+## Performance		<img src="../img/star.png" width=100 />
+
+
+	
+## Complexity		<img src="../img/star.png" width=100 />
 
 
 
+## Accessibility		<img src="../img/star.png" width=100 />
 
-## Pricing
+
+
+## Supportability		<img src="../img/star.png" width=100 />
+
+
+
+## Interoperability		<img src="../img/star.png" width=100 />
+
+
+
+## Data handling
+
+
+
+## Cost 		<img src="../img/star.png" width=100 />
+
 https://azure.microsoft.com/en-us/pricing/details/face
+
 
 
 

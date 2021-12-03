@@ -23,6 +23,11 @@
         {
             "name": "Security ",
             "docLink": "https://docs.microsoft.com/en-us/azure/?product=security"
+        },
+        {
+            "name": "Identity ",
+            "docLink": "https://docs.microsoft.com/en-us/azure/?product=identity"
         }
+
     ]
 }
